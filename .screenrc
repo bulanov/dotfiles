@@ -1,0 +1,10 @@
+startup_message off
+caption always "%{= Wk}%-w%{= Bw}%n %t%{-}%+w %-="
+
+defscrollback 1000
+
+screen -t "202" 1
+screen -t "203" 2
+screen -t "204" 3
+screen -t "205" 4
+screen -t "selectel" 5
