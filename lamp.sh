@@ -13,8 +13,8 @@ then
       yum -y install epel-release phpmyadmin rpm-build redhat-rpm-config;
       yum -y install mysql-community-release-el7-5.noarch.rpm proj;
       yum -y install tinyxml libzip mysql-workbench-community;
-      chmod 777 -R /var/www/;
-      printf "<?php\nphpinfo();\n?>" > /var/www/html/info.php;
+      chmod 777 -R /home/projects//;
+      printf "<?php\nphpinfo();\n?>" > /home/projects/users/info.php;
       service mysqld restart;
       service httpd restart;
       chkconfig httpd on;
