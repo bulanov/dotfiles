@@ -3,7 +3,8 @@ debian 7-8
 upgrade from 9.3 to 9.5 
 
 service postgresql stop 9.3
-service postgresql stop 9.1
+
+service postgresql stop 9.5
 
 su postgres
 
